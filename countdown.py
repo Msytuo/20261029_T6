@@ -35,6 +35,7 @@ for number in range(10,-1,-1):
         cable = input("¿Que cable cortamos? (azul,verde,rojo): ").lower()
         if cable == cables_explotar:
             print("BOOM, conshe tu madre!!!")
+            print(f"NAAA SOS UN BOLUDO EL {cables_salvar} ERA EL BUENO")
             break
         elif cable == cables_salvar:
             print("Mi causita desactivaste la bomba weon, vayapos a por un cui.")
@@ -45,6 +46,5 @@ for number in range(10,-1,-1):
     
     if number == 0:
         print("BOOM, conshe tu madre!!!")
-
-print(f"NAAA SOS UN CAPO EL {cables_salvar} ERA EL BUENO")
-print(f"SOS UN JIL  EL {cables_explotar} LO HIZO EXPLOTAR Y PERDIMOS LA PILETA")
+        print("NAAA EL PIPITA HIGUAN ERA MAS RAPIDO QUE VOS")
+        
